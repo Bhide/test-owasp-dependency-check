@@ -8,6 +8,10 @@ target 'OWASP Dependency Scan Pod' do
   # Pods for OWASP Dependency Scan Pod
 
 pod 'Alamofire'
+pod 'FirebaseAnalytics'
+pod 'FirebaseCrashlytics'
+pod 'FirebaseMessaging'
+pod 'GoogleMLKit/BarcodeScanning'
   pod 'GoogleMLKit/BarcodeScanning'
 
 end
