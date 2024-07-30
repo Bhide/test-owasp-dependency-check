@@ -31,7 +31,7 @@ OUTPUT_DIR="./dependency-check-report"
 mkdir -p "$OUTPUT_DIR"
 
 # Run Dependency-Check
-$DEPENDENCY_CHECK_PATH --project "OWASP Dependency Scan Pod" --scan "$PODFILE_LOCK_PATH" --format "HTML" --out "$OUTPUT_DIR" --nvd-api-key "$NVD_API_KEY"
+$DEPENDENCY_CHECK_PATH --project "OWASP Dependency Scan Pod" --scan "$PODFILE_LOCK_PATH" --format "HTML" --out "$OUTPUT_DIR" --nvdApiKey "$NVD_API_KEY"
 
 # Check if Dependency-Check ran successfully
 if [ $? -eq 0 ]; then
