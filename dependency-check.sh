@@ -7,7 +7,7 @@ if [ -z "$NVD_API_KEY" ]; then
 fi
 
 # Path to Dependency-Check
-DEPENDENCY_CHECK_PATH="/usr/local/bin/dependency-check"
+DEPENDENCY_CHECK_PATH="dependency-check"
 
 # Check if Dependency-Check is installed
 if ! [ -x "$(command -v $DEPENDENCY_CHECK_PATH)" ]; then
