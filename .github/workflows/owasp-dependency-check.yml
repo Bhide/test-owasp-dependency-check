@@ -10,6 +10,10 @@ jobs:
     runs-on: macos-latest
 
     steps:
+    - name: Check workflow initialization source
+      if: ${{ github.actor != 'github-actions' }}
+      run: exit 0
+      
     - name: Checkout code
       uses: actions/checkout@v2
 
@@ -43,6 +47,6 @@ jobs:
       run: |
         git add .
         git commit -m "Add Dependency-Check report"
-        git push origin master
+        git push origin main
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
