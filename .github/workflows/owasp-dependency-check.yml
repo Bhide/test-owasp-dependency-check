@@ -3,7 +3,7 @@ name: Dependency-Check
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   dependency-check:
