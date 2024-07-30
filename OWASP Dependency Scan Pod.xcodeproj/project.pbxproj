@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3761001A2C589A53009DBC2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376100192C589A53009DBC2B /* AppDelegate.swift */; };
+		3761001C2C589A53009DBC2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3761001B2C589A53009DBC2B /* SceneDelegate.swift */; };
+		3761001E2C589A53009DBC2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3761001D2C589A53009DBC2B /* ViewController.swift */; };
+		376100212C589A53009DBC2B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 376100202C589A53009DBC2B /* Base */; };
+		376100242C589A53009DBC2B /* OWASP_Dependency_Scan_Pod.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 376100222C589A53009DBC2B /* OWASP_Dependency_Scan_Pod.xcdatamodeld */; };
+		376100262C589A55009DBC2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 376100252C589A55009DBC2B /* Assets.xcassets */; };
+		376100292C589A55009DBC2B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 376100282C589A55009DBC2B /* Base */; };
+		AF790288E42A7E9E16D8A3EF /* Pods_OWASP_Dependency_Scan_Pod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F05AD5367D47F3D96F583F9 /* Pods_OWASP_Dependency_Scan_Pod.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		376100162C589A53009DBC2B /* OWASP Dependency Scan Pod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OWASP Dependency Scan Pod.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		376100192C589A53009DBC2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3761001B2C589A53009DBC2B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3761001D2C589A53009DBC2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		376100202C589A53009DBC2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		376100232C589A53009DBC2B /* OWASP_Dependency_Scan_Pod.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OWASP_Dependency_Scan_Pod.xcdatamodel; sourceTree = "<group>"; };
+		376100252C589A55009DBC2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		376100282C589A55009DBC2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3761002A2C589A55009DBC2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41E235573A7C9050F4BB7E80 /* Pods-OWASP Dependency Scan Pod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OWASP Dependency Scan Pod.release.xcconfig"; path = "Target Support Files/Pods-OWASP Dependency Scan Pod/Pods-OWASP Dependency Scan Pod.release.xcconfig"; sourceTree = "<group>"; };
+		7F05AD5367D47F3D96F583F9 /* Pods_OWASP_Dependency_Scan_Pod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OWASP_Dependency_Scan_Pod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AAB1AA3A4B9D46D7FEA7160 /* Pods-OWASP Dependency Scan Pod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OWASP Dependency Scan Pod.debug.xcconfig"; path = "Target Support Files/Pods-OWASP Dependency Scan Pod/Pods-OWASP Dependency Scan Pod.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		376100132C589A53009DBC2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF790288E42A7E9E16D8A3EF /* Pods_OWASP_Dependency_Scan_Pod.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3761000D2C589A53009DBC2B = {
+			isa = PBXGroup;
+			children = (
+				376100182C589A53009DBC2B /* OWASP Dependency Scan Pod */,
+				376100172C589A53009DBC2B /* Products */,
+				EAAC5B38AA94E0243759253D /* Pods */,
+				6B96375D55C3930D267307D4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		376100172C589A53009DBC2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				376100162C589A53009DBC2B /* OWASP Dependency Scan Pod.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		376100182C589A53009DBC2B /* OWASP Dependency Scan Pod */ = {
+			isa = PBXGroup;
+			children = (
+				376100192C589A53009DBC2B /* AppDelegate.swift */,
+				3761001B2C589A53009DBC2B /* SceneDelegate.swift */,
+				3761001D2C589A53009DBC2B /* ViewController.swift */,
+				3761001F2C589A53009DBC2B /* Main.storyboard */,
+				376100252C589A55009DBC2B /* Assets.xcassets */,
+				376100272C589A55009DBC2B /* LaunchScreen.storyboard */,
+				3761002A2C589A55009DBC2B /* Info.plist */,
+				376100222C589A53009DBC2B /* OWASP_Dependency_Scan_Pod.xcdatamodeld */,
+			);
+			path = "OWASP Dependency Scan Pod";
+			sourceTree = "<group>";
+		};
+		6B96375D55C3930D267307D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F05AD5367D47F3D96F583F9 /* Pods_OWASP_Dependency_Scan_Pod.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAAC5B38AA94E0243759253D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8AAB1AA3A4B9D46D7FEA7160 /* Pods-OWASP Dependency Scan Pod.debug.xcconfig */,
+				41E235573A7C9050F4BB7E80 /* Pods-OWASP Dependency Scan Pod.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		376100152C589A53009DBC2B /* OWASP Dependency Scan Pod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3761002D2C589A55009DBC2B /* Build configuration list for PBXNativeTarget "OWASP Dependency Scan Pod" */;
+			buildPhases = (
+				A9208E352B22BFDAA4B42740 /* [CP] Check Pods Manifest.lock */,
+				376100122C589A53009DBC2B /* Sources */,
+				376100132C589A53009DBC2B /* Frameworks */,
+				376100142C589A53009DBC2B /* Resources */,
+				391BEB9A3EA0B58199127988 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OWASP Dependency Scan Pod";
+			productName = "OWASP Dependency Scan Pod";
+			productReference = 376100162C589A53009DBC2B /* OWASP Dependency Scan Pod.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3761000E2C589A53009DBC2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					376100152C589A53009DBC2B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 376100112C589A53009DBC2B /* Build configuration list for PBXProject "OWASP Dependency Scan Pod" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3761000D2C589A53009DBC2B;
+			productRefGroup = 376100172C589A53009DBC2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				376100152C589A53009DBC2B /* OWASP Dependency Scan Pod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		376100142C589A53009DBC2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				376100262C589A55009DBC2B /* Assets.xcassets in Resources */,
+				376100292C589A55009DBC2B /* Base in Resources */,
+				376100212C589A53009DBC2B /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		391BEB9A3EA0B58199127988 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OWASP Dependency Scan Pod/Pods-OWASP Dependency Scan Pod-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OWASP Dependency Scan Pod/Pods-OWASP Dependency Scan Pod-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OWASP Dependency Scan Pod/Pods-OWASP Dependency Scan Pod-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9208E352B22BFDAA4B42740 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OWASP Dependency Scan Pod-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		376100122C589A53009DBC2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				376100242C589A53009DBC2B /* OWASP_Dependency_Scan_Pod.xcdatamodeld in Sources */,
+				3761001E2C589A53009DBC2B /* ViewController.swift in Sources */,
+				3761001A2C589A53009DBC2B /* AppDelegate.swift in Sources */,
+				3761001C2C589A53009DBC2B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3761001F2C589A53009DBC2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				376100202C589A53009DBC2B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		376100272C589A55009DBC2B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				376100282C589A55009DBC2B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3761002B2C589A55009DBC2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3761002C2C589A55009DBC2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3761002E2C589A55009DBC2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AAB1AA3A4B9D46D7FEA7160 /* Pods-OWASP Dependency Scan Pod.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SPCVN67S3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "OWASP Dependency Scan Pod/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.id123.salto.OWASP-Dependency-Scan-Pod";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3761002F2C589A55009DBC2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41E235573A7C9050F4BB7E80 /* Pods-OWASP Dependency Scan Pod.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SPCVN67S3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "OWASP Dependency Scan Pod/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.id123.salto.OWASP-Dependency-Scan-Pod";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		376100112C589A53009DBC2B /* Build configuration list for PBXProject "OWASP Dependency Scan Pod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3761002B2C589A55009DBC2B /* Debug */,
+				3761002C2C589A55009DBC2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3761002D2C589A55009DBC2B /* Build configuration list for PBXNativeTarget "OWASP Dependency Scan Pod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3761002E2C589A55009DBC2B /* Debug */,
+				3761002F2C589A55009DBC2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		376100222C589A53009DBC2B /* OWASP_Dependency_Scan_Pod.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				376100232C589A53009DBC2B /* OWASP_Dependency_Scan_Pod.xcdatamodel */,
+			);
+			currentVersion = 376100232C589A53009DBC2B /* OWASP_Dependency_Scan_Pod.xcdatamodel */;
+			path = OWASP_Dependency_Scan_Pod.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3761000E2C589A53009DBC2B /* Project object */;
+}
